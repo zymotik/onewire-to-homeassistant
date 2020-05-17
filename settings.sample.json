@@ -1,0 +1,5 @@
+{
+    "serverUrl": "https://your-server.homeassistant.org",
+    "token": "long-lived-access-token-from-user-profile-page",
+    "publishFrequencyInSeconds": 60
+}

@@ -1,0 +1,5 @@
+{
+    "serveraddress": "https://centralavenue.duckdns.org",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxMTdmYjY0N2FmY2M0NTI1YmUwNjJjNGM5ODk3ZTJlNSIsImlhdCI6MTU4OTY0MzAxMSwiZXhwIjoxOTA1MDAzMDExfQ.ZQwKj-By-t02wEyd9ooEyDmJ9K_WEHacviN87AMonLw",
+    "publishFrequencyInSeconds": 60
+}
