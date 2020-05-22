@@ -52,7 +52,7 @@ describe('homeassistant', function() {
     it('should publish with valid parameters', function() {
 
         const fakeAxios = sinon.fake(() => {
-            return { then: () => {} }
+            return { then: () => { return { catch: () => {} }} }
         });
 
         homeassistantRewired = rewiremock.proxy('../homeassistant', () => ({
