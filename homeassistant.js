@@ -13,10 +13,12 @@ function publish(sensorId, value) {
         throw new Error('Value is required and must be a number');
     }
 
-    log(`Publish '${sensorId}' with value '${value}'`, true);
+    const cleanSensorId = sensorId.replace(/[^0-9a-z]/gi, '');
+
+    log(`Publish '${cleanSensorId}' with value '${value}'`, true);
     
     axios({
-        url: `${config.serverUrl}/api/states/sensor.onewire${sensorId}`,
+        url: `${config.serverUrl}/api/states/sensor.onewire${cleanSensorId}`,
         method: 'post',
         headers: { 'Authorization': `Bearer ${config.token}`,
                     'Content-Type': 'application/json' },
