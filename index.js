@@ -30,7 +30,7 @@ async function findSensors() {
                 console.error(err);
                 resolve([]);
             } else if (ids) {
-                log('Sensors found. Publishing to:')
+                log(`Sensors found. Publishing sensor id's:`)
                 ids.forEach((id)=> {
                     log(`${id}`);
                 });

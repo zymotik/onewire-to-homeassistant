@@ -29,5 +29,7 @@ function publish(sensorId, value) {
         }
     ).then(() => {
         log('Published', true);
+    }).catch((e) => {
+        console.error(e);
     });
 }
