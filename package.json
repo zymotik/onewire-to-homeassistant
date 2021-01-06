@@ -15,7 +15,7 @@
   "author": "Ian Brown",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ds18b20": "^0.1.0",
     "fs": "0.0.1-security",
     "moment-mini": "^2.22.1"
